@@ -23,8 +23,9 @@ In a study conducted by National Highway Traffic Safety Administration (NHTSA), 
 
 ### Getting Started
 
-```Clone the repository: git clone https://github.com/amalazimroshan/volkswagon.git
+```
+   Clone the repository: git clone https://github.com/amalazimroshan/volkswagon.git
 
-Install dependencies: pip install -r requirements.txt
+   Install dependencies: pip install -r requirements.txt
 
 ```
