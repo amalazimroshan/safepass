@@ -1,44 +1,30 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
+## SafePass
 
-These are common Git commands used in various situations:
+SafePass is a project aimed at enhancing road safety by providing real-time information to drivers about the feasibility of overtaking a large vehicle, such as a truck. The system utilizes machine learning, computer vision, and vehicle dynamics to calculate and display a safety signal on the back of the truck, helping following drivers make informed decisions.
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+#### Features
+- Object Detection: Utilizes PyTorch and OpenCV for real-time detection of vehicles in front of the large vehicle.
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+- Distance and Speed Calculation: Determines the distance between the large vehicle and the detected vehicles, as well as the speed of the large vehicle.
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+- Safety Signal: Displays a dynamic red or green signal on the back of the large vehicle based on calculated safety parameters, indicating whether it's safe to overtake.
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+![SafePass](render1.jpeg)
+![SafePass](render2.jpeg)
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+#### Why SafePass?
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+##### Road Safety Impact
+According to World Health Organization, road traffic injuries are the leading cause of death among young people aged 5–29. SafePass aims to contribute to reducing accidents related to overtaking, a common cause of road incidents.
+
+##### Overtaking Statistics
+In a study conducted by National Highway Traffic Safety Administration (NHTSA), improper overtaking maneuvers contribute significantly to road accidents. SafePass addresses this issue by providing real-time safety information.
+
+
+### Getting Started
+
+```Clone the repository: git clone https://github.com/amalazimroshan/volkswagon.git
+
+Install dependencies: pip install -r requirements.txt
+
+```
