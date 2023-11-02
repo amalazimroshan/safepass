@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amalazimroshan/volkswagon/blob/main/object_detection_depth_estimation_colab.ipynb]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amalazimroshan/volkswagon/blob/main/object_detection_depth_estimation_colab.ipynb)]
 
 ## SafePass
 
