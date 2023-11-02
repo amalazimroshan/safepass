@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amalazimroshan/volkswagon/blob/main/object_detection_depth_estimation_colab.ipynb]
+
 ## SafePass
 
 SafePass is a project aimed at enhancing road safety by providing real-time information to drivers about the feasibility of overtaking a large vehicle, such as a truck. The system utilizes machine learning, computer vision, and vehicle dynamics to calculate and display a safety signal on the back of the truck, helping following drivers make informed decisions.
@@ -23,6 +25,9 @@ In a study conducted by National Highway Traffic Safety Administration (NHTSA), 
 
 
 ### Getting Started
+
+To run this notebook on google colab
+click here: https://colab.research.google.com/github/amalazimroshan/volkswagon/blob/main/object_detection_depth_estimation_colab.ipynb
 
 Clone the repository and install dependencies
 
