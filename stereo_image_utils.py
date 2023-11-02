@@ -1,7 +1,7 @@
 
 
 # utilities .py
-# these colours are used to draw boxes.
+
 import copy
 import math
 
@@ -22,7 +22,7 @@ COLOURS = [
     tuple(int(colour_hex.strip('#')[i:i+2], 16) for i in (0, 2, 4))
     for colour_hex in plt.rcParams['axes.prop_cycle'].by_key()['color']
 ]
-# this is the show image function
+
 def show(imgs):
     if not isinstance(imgs, list):
         imgs = [imgs]
@@ -55,14 +55,10 @@ def display_image(image):
 
     
 def display_image_pair(first_image, second_image):
-    #this funciton from Computer vision course notes (Dr. Lydia )
-    # When using plt.subplots, we can specify how many plottable regions we want to create through nrows and ncols
-    # Here we are creating a subplot with 2 columns and 1 row (i.e. side-by-side axes)
-    # When we do this, axes becomes a list of length 2 (Containing both plottable axes)
+# This function show two images side by side using Matplotlib's subplots.
+# It first checks whether the provided images are grayscale or RGB, and then displays them accordingly in two adjacent subplots.
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(12, 8))
     
-    # TODO: Call imshow on each of the axes with the first and second images
-    #       Make sure you handle both RGB and grayscale images
     if first_image.ndim == 2:
         axes[0].imshow(first_image, cmap='gray', vmin=0, vmax=255)
     else:
@@ -121,7 +117,6 @@ def draw_detections(img, det, colours=COLOURS, obj_order = None):
         cv2.rectangle(img, (tlx, tly), (brx, bry), color=colours[i], thickness=2)
 
         
-#annotate the class labels
 def annotate_class(img, det, lbls, conf=None, colours=COLOURS, class_map=weights.meta["categories"]):
     for i, ( tlx, tly, brx, bry) in enumerate(det):
         txt = class_map[lbls[i]]

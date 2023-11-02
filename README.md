@@ -10,8 +10,8 @@ SafePass is a project aimed at enhancing road safety by providing real-time info
 
 - Safety Signal: Displays a dynamic red or green signal on the back of the large vehicle based on calculated safety parameters, indicating whether it's safe to overtake.
 
-![SafePass](render1.jpeg)
-![SafePass](render2.jpeg)
+![SafePass](green_light.png)
+![SafePass](red_light.png)
 
 ### Why SafePass?
 
