@@ -30,7 +30,7 @@ In a study conducted by National Highway Traffic Safety Administration (NHTSA), 
 ### Getting Started
 
 To run this notebook on google colab
-click here: https://colab.research.google.com/github/amalazimroshan/volkswagon/blob/main/object_detection_depth_estimation_colab.ipynb
+click here: https://colab.research.google.com/github/amalazimroshan/safepass/blob/main/object_detection_depth_estimation_colab.ipynb
 
 Clone the repository and install dependencies
 
